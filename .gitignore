@@ -3,6 +3,7 @@
 
 /bin
 /out
+*.iml
 
 # don't ignore gitignore
 !.gitignore
