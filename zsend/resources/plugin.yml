@@ -1,0 +1,5 @@
+name: ZSend
+main: zservers.zsend.main.ZSend
+version: 0.1 Alpha
+author: [iThunder]
+depends: [BungeeYAML]

@@ -1,0 +1,71 @@
+#######################
+## ZSEND CONFIG FILE ##
+#######################
+
+### LOGLEVEL ###
+# Determines if messages get logged, if smaller than 1 nothing is displayed.
+# 1: error and warning messages
+# 2: info messages
+# 3: debug messages
+# DEFAULT: 2
+loglevel: 3
+
+### ADMIN PERMISSION ###
+# The permission which enables access to all commands in the plugin.
+# DEFAULT 'zservers.admin'
+admin: 'zservers.admin'
+
+####################
+## COMMAND SENDER ##
+####################
+
+### PORT ###
+# Port which the Socket on the Bungee uses.
+# DEFAULT: 11223
+port: 11223
+
+### MASTER SERVER IP:PORT ###
+# The ip and port of the master server, if empty this server is
+# considered a master server.
+# DEFAULT: -empty-
+masterip:
+
+### SERVER ID-NAME ###
+# This name is used to identify this server when dispatching commands.
+# There shouldn't be multiple servers with the same name in one ZSend network.
+# DEFAULT 'ZSendBungee'
+serverid: 'ZSendBungee'
+
+### MAX CONNECTIONS ###
+# Maximum number of threads, which this plugin is allowed to start
+# DEFAULT: 10
+maxconnections: 10
+
+### TIMEOUT ###
+# Time in milliseconds for how long the servers wait for command
+# acknowledges, until they find the command failed.
+# DEFAULT: 5000
+timeout: 5000
+
+### PASSWORD ###
+# Password used to authenticate console connections.
+# It is NOT used for authenticating server connections, as they are
+# authenticated over the server-name and ip!
+# When empty, no password is needed for console connections
+# and the allowed IPs are used.
+# DEFAULT: -emty-
+password:
+
+### ALLOWED IPS ###
+# Server and controller IPs allowed to connect.
+# When console IPs are set, only console connections from the set
+# IPs are accepted, this requires, that the password is unset.
+# DEFAULT: 127.0.0.1
+consoleips:
+  - '127.0.0.1'
+
+serverips:
+  - '127.0.0.1'
+
+controllerips:
+  - '127.0.0.1'

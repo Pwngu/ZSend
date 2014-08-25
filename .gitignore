@@ -1,0 +1,10 @@
+# ignore everything
+.*
+
+/bin
+/out
+
+# don't ignore gitignore
+!.gitignore
+
+

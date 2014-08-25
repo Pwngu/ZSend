@@ -1,0 +1,10 @@
+name: ZReceive
+main: zservers.zreceive.ZReceive
+version: 0.1 Alpha
+authors: [iThunder]
+
+commands:
+  zr:
+    description: 'Used to connect/disconnect/reconnect the plugin to the Bungee server'
+    usage: /<command> [operation]
+    permission: 'zservers.admin'

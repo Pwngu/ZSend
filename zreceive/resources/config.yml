@@ -1,0 +1,29 @@
+##########################
+## ZRECEIVE CONFIG FILE ##
+##########################
+
+### LOGLEVEL ###
+# Determines if messages get logged, if smaller than 1 nothing is displayed.
+# 1: error and warning messages
+# 2: info messages
+# 3: debug messages
+loglevel: 3
+
+### PORT ###
+# Port which the Bungee server uses to listen for connections.
+# DEFAULT: 11223
+port: 11223
+
+### IP ###
+# IP of the BungeeServer, if the Bukkit and the
+# Bungee server are on different machines.
+#DEFAULT 127.0.0.1
+ip: 127.0.0.1
+
+### AUTO RECONNECT ###
+# When true, ZReceive will always try to reconnect to the Bungee server if the
+# connection gets closed, except when using the "/zr disconnect" command.
+# When false ZReceive will only try to connect once upon start and
+# when calling "/zr connect".
+# DEFAULT: true
+autoreconnect: true
