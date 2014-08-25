@@ -4,6 +4,8 @@
 /bin
 /out
 *.iml
+*.ipr
+*.iws
 
 # don't ignore gitignore
 !.gitignore
